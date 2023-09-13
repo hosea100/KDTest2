@@ -1,7 +1,10 @@
 import React from 'react'
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 
 function MobileNav({ isMenuOpen, toggleMenu, ulItems }) {
+  const router = useRouter();
+  const pathname = usePathname();
   return (
     <div>
       <div
@@ -10,7 +13,7 @@ function MobileNav({ isMenuOpen, toggleMenu, ulItems }) {
       >
         <ul className="h-screen md:h-auto items-center justify-center md:flex text-skin-base-light">
           {ulItems.map((items, i) => (
-            <Link key={items.key} href={items.link} onClick={toggleMenu}>
+            <Link key={items.key} href={pathname == '/' ? items.link : `/${items.link}`} onClick={toggleMenu}>
               <li key={items.key} className="pb-6 text-xl font-bold py-2 px-6 text-center border-b-2 md:border-b-0 hover:bg-dracula-cyan border-purple-900 md:hover:text-dracula-cyan md:hover:bg-transparent">
                 {items.label}
               </li>
