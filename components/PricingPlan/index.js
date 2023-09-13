@@ -9,7 +9,7 @@ function PricingPlan() {
   };
   return (
     <div
-      className='bg-dracula-purple bg-cover bg-left min-h-screen flex flex-col justify-center items-center sm:bg-center'
+      className='bg-dracula-purple bg-cover bg-left min-h-screen flex flex-col justify-center items-center sm:bg-center font-montserrat'
       id='pricing'
       style={{ backgroundImage: 'url("/Img/blob-haikei3.svg")' }}
     >
@@ -20,7 +20,7 @@ function PricingPlan() {
             <h2 className="text-3xl font-bold">Yes <span className='text-dracula-green'>PRICE</span>, so <span className='text-dracula-green'>CHEAP</span> la</h2>
           </div>
           <div className="flex flex-col justify-center py-4 sm:flex-row">
-            <div className="w-80 m-5 text-center px-4 py-5 bg-white shadow-md rounded-lg">
+            <div className="w-96 m-5 text-center px-5 py-6 bg-white shadow-md rounded-lg">
               <h4 className="text-dracula-selection font-bold">Basic</h4>
               <h1 className="text-5xl font-semibold">$15</h1>
               <h5 className="mb-4">Monthly Subscription</h5>
@@ -88,7 +88,7 @@ function PricingPlan() {
                 </div>
               </div>
             </div>
-            <div className="w-80 m-5 text-center px-4 py-5 bg-white shadow-md rounded-lg scale-100 sm:scale-110">
+            <div className="w-96 m-5 text-center px-5 py-6 bg-white shadow-md rounded-lg scale-100 sm:scale-110">
               <h4 className="text-dracula-orange font-bold">Business</h4>
               <h1 className="text-5xl font-semibold">$50</h1>
               <h5 className="mb-4">Monthly Subscription</h5>
@@ -154,7 +154,7 @@ function PricingPlan() {
                 </div>
               </div>
             </div>
-            <div className="w-80 m-5 text-center px-4 py-5 bg-white shadow-md rounded-lg">
+            <div className="w-96 m-5 text-center px-5 py-6 bg-white shadow-md rounded-lg">
               <h4 className="text-dracula-selection font-bold">Entrepreneur</h4>
               <h1 className="text-5xl font-semibold">$100</h1>
               <h5 className="mb-4">Monthly Subscription</h5>
@@ -184,7 +184,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat Keuntungan</a>
+                  <a className="ml-2">Record profit gains</a>
                 </div>
               </div>
               <div className="my-3">

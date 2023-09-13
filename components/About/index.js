@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div
-      className='relative bg-dracula-foreground bg-cover bg-center h-screen min-h-screen flex flex-col justify-center' id='about'
+      className='relative bg-dracula-foreground bg-cover bg-center h-screen min-h-screen flex flex-col justify-center font-montserrat' id='about'
       style={{ backgroundImage: 'url("/Img/blobfull.svg")' }}
     >
         <div className='flex flex-col text-skin-base-light items-center mx-12 md:mt-64 mt-0 md:ms-96 grow-0'>

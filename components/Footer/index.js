@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 function Footer() {
   return (
-    <div className="bg-white p-8 relative flex flex-row justify-between">
+    <div className="bg-white p-8 relative flex flex-row justify-between font-montserrat">
       <div className="w-1/2">
         <div className="mb-4">
           <h3 className="text-black font-bold text-2xl">Business Inquiries</h3>

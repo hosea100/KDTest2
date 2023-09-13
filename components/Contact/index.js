@@ -6,7 +6,7 @@ function Contact() {
   const [checked, setChecked] = useState(true);
 
   return (
-    <div className='bg-dracula-cyan min-h-screen flex lg:flex-row items-center justify-center flex-col' id='contact'>
+    <div className='bg-dracula-cyan min-h-screen flex lg:flex-row items-center justify-center flex-col font-montserrat' id='contact'>
       <div
         className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] md:px-24 md:py-20 lg:-mr-14"
       >

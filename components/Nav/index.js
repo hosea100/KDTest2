@@ -1,9 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react'
 import Link from "next/link";
-import Image from 'next/image';
 import { Icon } from "@iconify/react";
-import { Link as ScrollLink } from "react-scroll";
 import MobileNav from './MobileNav';
 
 const NavItems = [
@@ -56,7 +54,7 @@ function Nav() {
   }, []);
 
   return (
-    <nav className={`w-full fixed top-0 left-0 right-0 z-10 transition-all filter ${navbar ? `bg-dracula-comment`: `bg-transparent`}`}>
+    <nav className={`w-full fixed top-0 left-0 right-0 z-10 transition-all filter font-montserrat ${navbar ? `bg-dracula-comment`: `bg-transparent`}`}>
       <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
