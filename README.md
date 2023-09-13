@@ -33,9 +33,9 @@ To learn more about TailwindCSS, take a look at the following resources:
 
 You can check out [the TailwindCSS GitHub repository](https://github.com/tailwindlabs/tailwindcss)
 
-## Learn More about Ant Design
-To learn more about Ant Design, take a look at the following resources:
+## Learn More about Iconify
+To learn more about Iconify, take a look at the following resources:
 
-- [Ant Design Documentation](https://ant.design/docs/react/introduce) - learn about Ant Design features and API.
+- [Iconify Documentation](https://iconify.design/docs/) - learn about Iconify features.
 
-You can check out [the Ant Design GitHub repository](https://github.com/ant-design/ant-design/)
+You can check out [the Iconify GitHub repository](https://github.com/iconify)
