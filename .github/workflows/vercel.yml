@@ -1,6 +1,6 @@
 name: Deploy to Vercel
 env:
-  VERCEL_PROJECT_ID: prj_fouDa7wsg6kfFCNnYk908dR9xoSy
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 on:
   workflow_dispatch:
   release:
@@ -13,16 +13,16 @@ on:
 
 jobs:
   deploy:
-    if: github.repository == 'hosea100/kd-test2'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: install Vercel CLI
         run: npm install --global vercel@latest
       - name: pull Vercel environment information
-        run: vercel pull --yes --environment=production --token=8Okjs54gtXyKGcNkL23SMRSw
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: build project artifacts
-        run: vercel build --prod --token=8Okjs54gtXyKGcNkL23SMRSw
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: deploy project artifacts to Vercel
         run: |
           OUTPUT=$(du --inodes -d 5 .vercel/output)
@@ -31,4 +31,4 @@ jobs:
           PERCENTAGE=$(echo "$LAST" | awk 'BEGIN {maxtotal=15000} { printf "%.2f%%", ($1/maxtotal*100) }')
           echo "Vercel file usage percentage" >> $GITHUB_STEP_SUMMARY
           echo "$PERCENTAGE" >> $GITHUB_STEP_SUMMARY
-          vercel deploy --prebuilt --prod --token=8Okjs54gtXyKGcNkL23SMRSw
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
