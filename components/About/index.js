@@ -21,7 +21,7 @@ function About() {
           <img 
           src='/Img/undraw_visual_data_re_mxxo.svg' 
           alt='theImg' 
-          width="100%"
+          width='100%'
           />
         </div>
       </div>
