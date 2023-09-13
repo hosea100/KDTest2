@@ -2,26 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+    /* --color-text-base: #f8f8f2;
+    --color-text-muted: #c7d2fe;
+    --color-text-inverted: #4f46e5;
+    --color-fill: #4338ca;
+    --color-button-accent: #fff;
+    --color-button-accent-hover: #eef2ff;
+    --color-button-muted: #6366f1; */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    /* light mode */
+    --background-color-light: #f8f8f2;
+    --color-fill: #44475a;
+
+    /* Text */
+    --color-text-base-light: #282a36;
+    --color-text-muted-light: #2e4045;
+    --color-text-inverted-light: #d7d5c9;
+
+    /* Button */
+    --color-button-accent-light: #8be9fd;
+    --color-button-accent-hover-light: #6272a4;
+    --color-button-muted-light: #7d9296;
+  }
+
+  body {
+    background-color: var(--background-color-light);
+    color: var(--color-text-base-light);
+  }
 }
