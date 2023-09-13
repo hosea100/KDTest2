@@ -25,3 +25,17 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+
+## Learn More about TailwindCSS
+To learn more about TailwindCSS, take a look at the following resources:
+
+- [TailwindCSS Documentation](https://tailwindcss.com/docs) - learn about TailwindCSS features.
+
+You can check out [the TailwindCSS GitHub repository](https://github.com/tailwindlabs/tailwindcss)
+
+## Learn More about Ant Design
+To learn more about Ant Design, take a look at the following resources:
+
+- [Ant Design Documentation](https://ant.design/docs/react/introduce) - learn about Ant Design features and API.
+
+You can check out [the Ant Design GitHub repository](https://github.com/ant-design/ant-design/)
