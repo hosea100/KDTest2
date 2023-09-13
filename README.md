@@ -55,3 +55,10 @@ You can check out [the Iconify GitHub repository](https://github.com/iconify)
 -Why do I use Iconify?
 I like Iconify wide range of icon available to use and how Iconify is compatible with ReactJS by using Iconify/react lib. Easy to use, reliable, and my code looks cleaner using Iconify.
 ```
+
+## Unit Test and Deployment
+[Here](https://github.com/hosea100/kd-test2/actions) or https://github.com/hosea100/kd-test2/actions
+
+Deployed with Vercel @ [Here](https://kd-test2.vercel.app/) or https://kd-test2.vercel.app/
+
+Preview can be viewed @ [Preview](https://github.com/hosea100/kd-test2/deployments/activity_log?environment=Preview)
