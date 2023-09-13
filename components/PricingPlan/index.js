@@ -34,7 +34,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat barang masuk</a>
+                  <a className="ml-2">Record incoming inventory</a>
                 </div>
               </div>
               <div className="my-3">
@@ -42,7 +42,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat barang keluar</a>
+                  <a className="ml-2">Record outgoing items</a>
                 </div>
               </div>
               <div className="my-3">
@@ -50,7 +50,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat hasil keuntungan</a>
+                  <a className="ml-2">Record profit gains</a>
                 </div>
               </div>
               <div className="my-3">
@@ -59,7 +59,7 @@ function PricingPlan() {
                     icon="material-symbols:cancel-outline"
 
                   />
-                  <a className="ml-2">Analisa penjualan dengan CHART</a>
+                  <a className="ml-2">Analyze sales with CHARTS</a>
                 </div>
               </div>
               <div className="my-3">
@@ -68,7 +68,7 @@ function PricingPlan() {
                     icon="material-symbols:cancel-outline"
 
                   />
-                  <a className="ml-2 ">Support 7x24 Jam</a>
+                  <a className="ml-2 ">24/7 Support</a>
                 </div>
               </div>
               <div className="my-3">
@@ -76,7 +76,7 @@ function PricingPlan() {
                   <Icon
                     icon="material-symbols:cancel-outline"
                   />
-                  <a className="ml-2">Export data ke Excel</a>
+                  <a className="ml-2">Export data to Excel</a>
                 </div>
               </div>
               <div className="my-3">
@@ -84,7 +84,7 @@ function PricingPlan() {
                   <Icon
                     icon="material-symbols:cancel-outline"
                   />
-                  <a className="ml-2">AI Prediksi penghasilan</a>
+                  <a className="ml-2">AI Generated revenue forecasting</a>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat barang masuk</a>
+                  <a className="ml-2">Record incoming inventory</a>
                 </div>
               </div>
               <div className="my-3">
@@ -110,7 +110,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat barang keluar</a>
+                  <a className="ml-2">Record outgoing items</a>
                 </div>
               </div>
               <div className="my-3">
@@ -118,7 +118,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat hasil keuntungan</a>
+                  <a className="ml-2">Record profit gains</a>
                 </div>
               </div>
               <div className="my-3">
@@ -126,7 +126,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Analisa penjualan dengan CHART</a>
+                  <a className="ml-2">Analyze sales with CHARTS</a>
                 </div>
               </div>
               <div className="my-3">
@@ -134,7 +134,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Support 7x24 Jam</a>
+                  <a className="ml-2">24/7 Support</a>
                 </div>
               </div>
               <div className="my-3">
@@ -142,7 +142,7 @@ function PricingPlan() {
                   <Icon
                     icon="material-symbols:cancel-outline"
                   />
-                  <a className="ml-2">Export data ke Excel</a>
+                  <a className="ml-2">Export data to Excel</a>
                 </div>
               </div>
               <div className="my-3">
@@ -150,7 +150,7 @@ function PricingPlan() {
                   <Icon
                     icon="material-symbols:cancel-outline"
                   />
-                  <a className="ml-2">AI Prediksi penghasilan</a>
+                  <a className="ml-2">AI Generated revenue forecasting</a>
                 </div>
               </div>
             </div>
@@ -168,7 +168,15 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Mencatat barang masuk dan keluar</a>
+                  <a className="ml-2">Record incoming inventory</a>
+                </div>
+              </div>
+              <div className="my-3">
+                <div className="flex items-center text-green-500">
+                  <Icon
+                    icon="zondicons:checkmark-outline"
+                  />
+                  <a className="ml-2">Record outgoing items</a>
                 </div>
               </div>
               <div className="my-3">
@@ -184,7 +192,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Analisa penjualan dengan CHART</a>
+                  <a className="ml-2">Analyze sales with CHARTS</a>
                 </div>
               </div>
               <div className="my-3">
@@ -192,7 +200,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Support 7x24 Jam</a>
+                  <a className="ml-2">24/7 Support</a>
                 </div>
               </div>
               <div className="my-3">
@@ -200,7 +208,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">Export data ke Excel</a>
+                  <a className="ml-2">Export data to Excel</a>
                 </div>
               </div>
               <div className="my-3">
@@ -208,7 +216,7 @@ function PricingPlan() {
                   <Icon
                     icon="zondicons:checkmark-outline"
                   />
-                  <a className="ml-2">AI Prediksi penghasilan</a>
+                  <a className="ml-2">AI Generated revenue forecasting</a>
                 </div>
               </div>
             </div>
