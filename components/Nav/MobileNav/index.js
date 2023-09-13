@@ -18,7 +18,7 @@ function MobileNav({ isMenuOpen, toggleMenu, ulItems }) {
           ))}
           <Link href="/login" onClick={toggleMenu}>
             <li className="my-2 mx-6 px-16 py-2 text-center leading-none border rounded border-dracula-cyan hover:bg-dracula-cyan text-dracula-cyan hover:text-dracula-currentLine md:mt-0 mt-20">
-              Login
+              LOGIN
             </li>
           </Link>
         </ul>

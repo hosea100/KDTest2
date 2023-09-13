@@ -8,19 +8,19 @@ import MobileNav from './MobileNav';
 
 const NavItems = [
   {
-    label: "About",
+    label: "ABOUT",
     key: "about",
     icon: "",
     link: "#about",
   },
   {
-    label: "Pricing",
+    label: "PRICING",
     key: "pricing",
     icon: "",
     link: "#pricing",
   },
   {
-    label: "Contact",
+    label: "CONTACT",
     key: "contact",
     icon: "",
     link: "#contact",
