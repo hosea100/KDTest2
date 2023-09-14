@@ -55,7 +55,7 @@ function Nav() {
 
   return (
     <nav className={`w-full fixed top-0 left-0 right-0 z-10 transition-all filter font-montserrat ${navbar ? `bg-dracula-comment`: `bg-transparent`}`}>
-      <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+      <div className={`justify-between px-4 mx-auto md:items-center md:flex md:px-8 ${isMenuOpen ? `bg-dracula-comment` : ``}`}>
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             {/* LOGO */}
