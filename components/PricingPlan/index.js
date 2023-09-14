@@ -9,7 +9,7 @@ function PricingPlan() {
   };
   return (
     <div
-      className='bg-dracula-purple bg-cover bg-left min-h-screen flex flex-col justify-center items-center sm:bg-center font-montserrat'
+      className='bg-dracula-purple bg-cover bg-left min-h-screen flex flex-col justify-center items-center sm:bg-center font-montserrat overflow-hidden'
       id='pricing'
       style={{ backgroundImage: 'url("/Img/blob-haikei3.svg")' }}
     >
